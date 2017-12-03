@@ -150,6 +150,12 @@ body{
     object-fit: cover;
     color: white;
   }
+  #menu-amenities{
+    z-index: 100;
+    margin: auto;
+    padding: 1rem;
+    width: 70%;
+  }
 
   #div-amenities{
     background: $darken-image,url("../img/sofa.jpg");
@@ -186,6 +192,11 @@ body{
       }
     }
 
+  }
+
+  #div-contact{
+    margin: auto;
+    padding: 4rem;
   }
 
   footer {
