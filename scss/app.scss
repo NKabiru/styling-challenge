@@ -78,6 +78,13 @@ $darken-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
 }
 
 body{
+  .pad{
+    padding: 2rem 0rem 2rem 0rem;
+  }
+  .pos{
+    position: relative;
+    margin-bottom: 3rem;
+  }
   #landing-page{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/landing-page.jpg");
     width: 100% !important;
@@ -87,13 +94,21 @@ body{
   .custom-bar{
     margin-top: 2rem;
   }
+  .custom-nav{
+    a{
+      color: #fff;
+      font-size: 78%;
+    }
+  }
+  #alma-logo{
+    margin-left: 1rem;
+  }
+
   #div-custom-nav{
     justify-content: space-between;
   }
   #nav-bar{
-    padding-top: 2rem;
-    height: inherit;
-    margin: 0 5rem;
+    padding:1rem 4rem 0rem 4rem;
   }
   #view-projects{
     margin-left: 5rem;
@@ -106,145 +121,175 @@ body{
     align-content: center;
     padding-top: 15%;
   }
-
-
-  #about-alma{
-    padding: 2rem;
-
-    :first-child{
-      padding: 1rem;
-    }
-
-    :last-child{
-      font-size: large;
-    }
+  .float-text{
+    height: 31rem;
   }
 
-  #placeholder {
-    height: 200px !important; }
-
-  #hero-text{
-    width: 40%;
-    font-size: 30px;
+  .white-btn {
+    background-color: white;
+    color: #333;
+    font-size: 78%;
     font-weight: 900;
   }
 
-  #hero-buttons{
-    margin-top: 2rem;
+  .white-btn hr {
+    margin: 0
   }
 
-  #btn-work{
-    color:#333 !important;
-    background-color: white;
-    border-color: white;
-    border-radius: 3px;
+  .float-btn {
+    border-radius: 2px;
+    font-size: 78%;
+    font-weight: 900;
+    width: 40%
   }
 
-  #btn-book{
-    color:#333 !important;
-    background-color: white;
-    border-color: white;
+  .white-proc{
+    border-color: white !important;
+    color: white !important;
   }
 
-  #btn-website{
-    border-color: white;
-    color: white;
-    border-radius: 3px;
+  .black{
+    background-color: #121212;
+    color: #fff;
   }
 
-  #btn-submit{
-    color: white;
-    background-color: #333;
+  .strat-text{
+    line-height: 2.5rem;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    color: #dfdfdf
+  }
+  .about-text{
+    font-weight: 600;
+  }
+  .small-line{
+    line-height: 1.4rem;
+    letter-spacing: 1px;
   }
 
-  .top-bar{
-    z-index: -1;
+  .pad {
+    padding: 2rem 0rem 2rem 0rem;
   }
 
-  li a {
-    text-decoration: none;
-    color:white;
+  .marg{
+    margin: 1rem 4rem 0rem 4rem;
   }
 
-  #div-ruaka{
-    background-color:$dark-grey;
-    color: white;
+  .no-pad{
+    padding: 0;
+    margin: 0;
+  }
 
-    #div-ruaka-text{
-      font-family: 'Proxima-Nova-Light', sans-serif !important;
-      padding: 4rem;
-      font-size: 1.5rem;
+  #placeholder {
+    height: 200px !important
+  }
+
+  #btn-book {
+    margin-bottom: 0;
+    line-height: 2.3rem;
+    padding: 0;
+    width: 60%;
+  }
+
+  #btn-submit {
+    width: 100%;
+    line-height: 3rem;
+    background-color: #222;
+    color: white
+  }
+
+  .top-bar {
+    z-index: -1
+  }
+
+  li {
+    a {
+      text-decoration: none;
+      color: white
     }
-    #div-ruaka-price{
-      padding: 2rem 0;
-      .stat {
-        font-weight: 800;
-      }
-    }
   }
 
-  #div-video{
-    height: 300px;
+  #div-video {
+    height: 20rem;
     background: $darken-image,url("../img/placeholder.jpg");
-    object-fit: contain;
+    background-size: cover;
     color: white;
-  }
-  #menu-amenities{
-    z-index: 100;
-    margin: auto;
-    padding: 1rem;
-    width: 70%;
+
+    p{
+      font-family: 'Proxima-Nova-Light', sans-serif !important;
+      font-size: 1.5rem ;
+    }
   }
 
-  #div-amenities{
-    background: $darken-image,url("../img/sofa.jpg");
-    object-fit: contain;
+  .menu-amenities {
+    position: relative;
+    top: 2.5rem;
+    z-index: 100;
+    line-height: 3rem;
+  }
+
+  #div-amenities {
+    background: $darken-image,url("../img/sofa.jpeg");
+    background-size: cover;
     color: white;
-    height: 300px;
+    height: 330px;
   }
 
   .bedrooms{
     #grey {
       display: table;
       background: $dark-grey;
-      height:18rem;
+      height: 18rem;
       color: white;
-
-      h4{
-        display: table-cell;
-        vertical-align: middle;
-        text-align: center;
-      }
     }
-
-    #red{
+    #red {
       display: table;
       background: linear-gradient($maroon, $maroon), url("../img/1-bedroom.png");
       color: #fff;
-      object-fit: contain;
+      background-size: cover;
       height: 18rem;
 
-      div{
+      div {
         display: table-cell;
         vertical-align: middle;
-        text-align: center;
+        text-align: center
       }
     }
-
+    h4 {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center
+    }
+  }
+  .hand{
+    font-size: 18px;
+  }
+  .pos {
+    position: relative;
+    margin-bottom: 3rem;
   }
 
-  #div-contact{
-    margin: auto;
-    padding: 4rem;
+  .contact-form {
+    border-bottom: 5px solid #cc8b00;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.05);
+    position: absolute;
+    bottom: -16rem;
+    height: 34rem;
+    right: 1rem;
+    padding: 3rem !important;
+    background-color: #fff;
+    z-index: 100;
+  }
+  //
+    footer {
+      color: white;
+      background-color: $dark-grey;
+      height: 15rem;
+    }
   }
 
-  footer {
-    color: white;
-    background-color: $dark-grey;
-    height: 15rem;
-  }
 
-}
+
 
 
 /*# sourceMappingURL=app.css.map */

@@ -1,63 +1,66 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styling Challenge</title>
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-  <div class="grid-container full" id="landing-page">
-    <div id="nav-bar" class="grid-container">
-      <div class="grid-x grid-margin-x align-center-middle">
-        <div class="cell large-3 custom-nav">
-          <img id="alma-logo" src="img/thealma.svg">
-        </div>
-        <div class="cell large-6 custom-nav"></div>
-        <div class="cell large-3 custom-nav">
-          <ul class="menu">
-            <li id="view-projects"><a href="#">View More Projects</a></li>
-            <li><a href="#">Book Site Visit</a></li>
-            <li><button type="button" id="btn-book" class="hollow button secondary">Book Now</button></li>
-          </ul>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling Challenge</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="grid-container full" id="landing-page">
+  <div id="nav-bar" class="grid-container">
+    <div class="custom-nav">
+      <div class="cell grid-x align-right">
+        <a href="#">View More Projects</a></li>
+      </div>
+    </div>
+    <div class="grid-x align-justify align-middle">
+      <div class="cell large-3 custom-nav">
+        <img id="alma-logo" src="img/thealma.svg">
+      </div>
+      <div class="cell large-3 custom-nav">
+        <div class="cell grid-x align-justify align-middle">
+          <a href="#">Book Site Visit</a></li>
+          <button type="button" id="btn-book" class="button white-btn">Book Now</button>
         </div>
       </div>
-      <div id="float-text">
-        <div class="shrink cell">
-          <div id="hero-text">A comprehensive lifestyle development in Ruaka</div>
-          <div id="hero-buttons">
-            <button type="button" id="btn-work" class="hollow button secondary">Let's work together</button>&emsp;
-            <button type="button" id="btn-website" class="clear button secondary">Proceed to main website</button>
-          </div>
+    </div>
+    <div class="grid-x align-middle float-text">
+      <div class="cell small-6">
+        <h2><strong>A comprehensive lifestyle development in ruaka</strong></h2>
+        <div class="cell small-4 pad">
+          <button type="button" class="button white-btn float-btn">Let's work together</button>&emsp;
+          <button type="button" class="hollow button float-btn white-proc">Proceed to main website</button>
         </div>
       </div>
     </div>
   </div>
-
-  <div id="div-ruaka">
-    <div  class="grid-container">
-      <div class="grid-x grid-margin-x">
-        <div class="cell large-10 text-center">
-          <div id="div-ruaka-text" class="text-left">
-            The project is strategically positioned in the heart
-            of the fast growing Ruaka neighborhood.
-          </div>
-        </div>
-        <div class="cell large-2 text-center">
-          <div id="div-ruaka-price">
-            <div class="text-center stat">14</div>
-            <h4 class="text-center">Million</h4>
-            <h6 class="text-center">Three Bedroom</h6>
-          </div>
-        </div>
+</div>
+<div class="grid-container full black pad">
+  <div class="grid-x align-middle">
+    <div class="grid-x cell small-8">
+      <div class="cell small-3"></div>
+      <div class="cell small-8">
+        <h5 class="strat-text">
+          The project is strategically positioned in the heart
+          of the fast growing Ruaka neighborhood.
+        </h5>
       </div>
+      <div class="cell small-1"></div>
+    </div>
+    <div class="cell small-4">
+      <h1 class="text-center no-pad"><strong>14</strong></h1>
+      <h4 class="text-center no-pad small-line"><strong>Million</strong></h4>
+      <p class="text-center"><strong>Three Bedroom</strong></p>
     </div>
   </div>
+</div>
 
-  <div id="about-alma" class="grid-x grid-margin-x align-center-middle">
-    <div class="cell large-10">
-      <div class="text-center h3">About The Alma</div>
+<div class="grid-x align-center-middle pad marg">
+  <div class="grid-x cell large-10 align-center about-text">
+    <h3 class="text-center pad">About The Alma</h3>
+    <div class="cell small-11">
       <p class="text-center">
         The Alma is a signature lifestyle development in the fast growing
         satellite town of Ruaka that encompasess 1,2 and 3 bedroom apartments
@@ -72,39 +75,43 @@
       </p>
     </div>
   </div>
+</div>
 
-  <div id="div-video" class="grid-x grid-margin-x align-center-middle">
-    <div class="cell text-center">
+<div id="div-video" class="grid-x -x align-center-middle">
+  <div class="cell text-center">
 
-      <h4><img src="img/play-button.svg" width="50" height="50">&emsp;WATCH VIDEO</h4>
-    </div>
+    <h4><img src="img/play-button.svg" width="50" height="50">&emsp;WATCH VIDEO</h4>
   </div>
+</div>
 
-  <br>
-  <div class="grid-x grid-margin-x">
+<div class="grid-container full pad">
+
+  <div class="grid-x -x">
     <div class="cell">
-      <h3 class="text-center">Key Amenities</h3>
+      <h3 class="text-center">Key amenities & features</h3>
     </div>
   </div>
 
-  <div id="menu-amenities" class="grid-x grid-padding-x align-center-middle">
-    <div class="cell large-2 text-center"><hr>Retail center</div>
-    <div class="cell large-2 text-center"><hr>The Parking bay</div>
-    <div class="cell large-2 text-center"><hr>The Playground</div>
-    <div class="cell large-2 text-center"><hr>Swimming Pool</div>
-    <div class="cell large-2 text-center"><hr>The Gym</div>
+  <div class="grid-x align-center-middle menu-amenities">
+    <div class="cell large-10 grid-x grid-padding-x align-justify align-middle white-btn">
+      <div class="cell large-2 text-center"><hr>Retail center</div>
+      <div class="cell large-2 text-center"><hr>The Parking bay</div>
+      <div class="cell large-2 text-center"><hr>The Playground</div>
+      <div class="cell large-2 text-center"><hr>Swimming Pool</div>
+      <div class="cell large-2 text-center"><hr>The Gym</div>
+    </div>
   </div>
 
   <div id="div-amenities" class="grid-x grid-padding-x align-center-middle">
-    <div class="cell large-6  text-center">
+    <div class="cell large-5  text-center">
       <h4>The amenities at The Alma ensure convenience at its best</h4>
     </div>
   </div>
 
   <div class="grid-container full">
     <div class="bedrooms grid-x grid-padding-x align-content-center">
-      <div class="cell large-3" id="grey">
-        <h4 class="text-center">Structure & Floor Space</h4>
+      <div class="cell large-3 black" id="grey">
+        <h4 class="text-center">Structure & Floor Plans</h4>
       </div>
       <div class="cell large-3 text-center" id="red">
         <div>
@@ -124,60 +131,67 @@
       </div>
     </div>
   </div>
+</div>
 
-  <div id="div-contact" class="grid-container">
-    <div class="grid-x grid-padding-x">
-      <div class="cell large-6 text-left">
-        <h3>Get in touch with us</h3>
-        <p>
-          Cytonn Real Estate would like to work with you
-          hand in hand and help you get your dream home
-          <br><br>
-          Connect with us!
-          <br><br>
-          <strong>clientservices@cytonn.com</strong><br>
-          <strong>sales@cytonn.com</strong>
-        </p>
+
+<div class="grid-container pad">
+  <div class="grid-x grid-padding-x pos">
+    <div class="grid-x cell large-6 text-left">
+      <div class="cell large-1"></div>
+      <div class="grid-x cell large-7">
+        <h3>Get In touch with Us...</h3>
+        <div class="cell large-10 hand">
+          <p>
+            Cytonn Real Estate would like to work with you
+            hand in hand and help you get your dream home
+            <br><br>
+            Connect with Us!
+            <br><br>
+            <strong>clientservices@cytonn.com</strong><br>
+            <strong>sales@cytonn.com</strong>
+          </p>
+        </div>
       </div>
-      <div class="cell large-6 contact-form">
-        <h3>Leave us your contacts</h3>
-        <form>
-          <label for="">First Name</label>
-          <input type="text">
-          <label for="">Second Name</label>
-          <input type="text">
-          <label for="">Email Address</label>
-          <input type="email" name="" id="">
-          <label for="">Phone Number</label>
-          <input type="number" name="" id="">
-          <button type="submit" class="button" id="btn-submit">Submit</button>
-        </form>
-      </div>
+    </div>
+    <div class="cell large-5 contact-form">
+      <h3>Leave us your contacts</h3>
+      <form>
+        <label for="">First Name</label>
+        <input type="text">
+        <label for="">Second Name</label>
+        <input type="text">
+        <label for="">Email Address</label>
+        <input type="email" name="" id="">
+        <label for="">Phone Number</label>
+        <input type="number" name="" id="">
+        <button type="submit" class="button" id="btn-submit">Submit</button>
+      </form>
     </div>
   </div>
+</div>
 
-    <div id="div-footer" class="grid-container full">
-      <footer class="grid-x grid-padding-x">
-        <div class="cell large-6">
-          <p>
-            <strong>Nairobi, Kenya</strong> <br>
-            sales@cytonn.com <br>
-            020 392 9000 <br>
-          </p>
-        </div>
-        <div class="cell large-6">
-          <p>
-            <strong>United States</strong><br>
-            +1 (301) 982-2560 <br>
-            +1 (301) 825-9948 <br>
-          </p>
-        </div>
-    </footer>
+<div id="div-footer" class="grid-container full">
+  <footer class="grid-x grid-padding-x">
+    <div class="cell large-6">
+      <p>
+        <strong>Nairobi, Kenya</strong> <br>
+        sales@cytonn.com <br>
+        020 392 9000 <br>
+      </p>
     </div>
+    <div class="cell large-6">
+      <p>
+        <strong>United States</strong><br>
+        +1 (301) 982-2560 <br>
+        +1 (301) 825-9948 <br>
+      </p>
+    </div>
+  </footer>
+</div>
 
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/what-input/dist/what-input.js"></script>
-    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/what-input/dist/what-input.js"></script>
+<script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+<script src="js/app.js"></script>
+</body>
 </html>
