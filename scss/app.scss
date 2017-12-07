@@ -110,6 +110,14 @@ body{
 
   #about-alma{
     padding: 2rem;
+
+    :first-child{
+      padding: 1rem;
+    }
+
+    :last-child{
+      font-size: large;
+    }
   }
 
   #placeholder {
