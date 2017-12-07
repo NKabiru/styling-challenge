@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-  <div id="landing-page">
-    <div id="nav-bar">
-      <div class="grid-x grid-margin-x" id="div-custom-nav">
+  <div class="grid-container full" id="landing-page">
+    <div id="nav-bar" class="grid-container">
+      <div class="grid-x grid-margin-x align-center-middle">
         <div class="cell large-3 custom-nav">
           <img id="alma-logo" src="img/thealma.svg">
         </div>
+        <div class="cell large-6 custom-nav"></div>
         <div class="cell large-3 custom-nav">
           <ul class="menu">
             <li id="view-projects"><a href="#">View More Projects</a></li>
@@ -23,30 +24,32 @@
         </div>
       </div>
       <div id="float-text">
-
+        <div class="shrink cell">
           <div id="hero-text">A comprehensive lifestyle development in Ruaka</div>
           <div id="hero-buttons">
             <button type="button" id="btn-work" class="hollow button secondary">Let's work together</button>&emsp;
             <button type="button" id="btn-website" class="clear button secondary">Proceed to main website</button>
           </div>
-
+        </div>
       </div>
     </div>
   </div>
 
-  <div id="div-ruaka" class="grid-container full">
+  <div id="div-ruaka">
     <div  class="grid-container">
-      <div id="parent-black-div" class="grid-x grid-margin-x">
-        <div id="child-black-div" class="cell large-6 text-center">
-          <h4 class="text-left">
+      <div class="grid-x grid-margin-x">
+        <div class="cell large-10 text-center">
+          <div id="div-ruaka-text" class="text-left">
             The project is strategically positioned in the heart
             of the fast growing Ruaka neighborhood.
-          </h4>
+          </div>
         </div>
-        <div class="cell large-6">
-          <h1 class="text-center">14</h1>
-          <h4 class="text-center">Million</h4>
-          <p class="text-center">Three Bedroom</p>
+        <div class="cell large-2 text-center">
+          <div id="div-ruaka-price">
+            <div class="text-center stat">14</div>
+            <h4 class="text-center">Million</h4>
+            <h6 class="text-center">Three Bedroom</h6>
+          </div>
         </div>
       </div>
     </div>
