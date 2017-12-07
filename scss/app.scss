@@ -82,8 +82,9 @@ body{
     margin-top: 2rem;
   }
   #nav-bar{
-    padding-top: 5rem;
+    padding-top: 3rem;
     height: inherit;
+
   }
   #view-projects{
     margin-left: 5rem;
@@ -114,7 +115,20 @@ body{
   #placeholder {
     height: 200px !important; }
 
+  #hero-text{
+    width: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
   #btn-work{
+    color:#333 !important;
+    background-color: white;
+    border-color: white;
+    border-radius: 3px;
+  }
+
+  #btn-book{
     color:#333 !important;
     background-color: white;
     border-color: white;
@@ -123,6 +137,7 @@ body{
   #btn-website{
     border-color: white;
     color: white;
+    border-radius: 3px;
   }
 
   #btn-submit{
