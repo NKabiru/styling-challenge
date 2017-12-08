@@ -108,7 +108,7 @@ body{
     justify-content: space-between;
   }
   #nav-bar{
-    padding:1rem 4rem 0rem 4rem;
+    padding:1rem 4rem 0 4rem;
   }
   #view-projects{
     margin-left: 5rem;
@@ -172,7 +172,7 @@ body{
   }
 
   .marg{
-    margin: 1rem 4rem 0rem 4rem;
+    margin: 1rem 4rem 0 4rem;
   }
 
   .no-pad{
@@ -242,6 +242,18 @@ body{
       height: 18rem;
       color: white;
     }
+    .caption{
+      padding: 3rem 0 0 0;
+    }
+    #1-bedroom{
+      background: url("../img/2-bedroom.jpg");
+      background-size: cover;
+    }
+    #2-bedroom{
+      background: url("../img/1-bedroom.png");
+      background-size: cover;
+      padding: 1rem 0 0 0;
+    }
     #red {
       display: table;
       background: linear-gradient($maroon, $maroon), url("../img/1-bedroom.png");
@@ -261,6 +273,7 @@ body{
       text-align: center
     }
   }
+
   .hand{
     font-size: 18px;
   }
